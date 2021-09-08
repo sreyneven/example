@@ -1,0 +1,43 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 33px;
+    color: rgb(17, 17, 16);
+}
+.container{
+    width: 100%;
+}
+.header{
+    background: purple;
+    height: 10vh;
+}
+.nav{
+    width: 25%;
+    background: green;
+}
+.holy{
+    width: 50%;
+    background: rgb(213, 213, 77);
+}
+.side{
+    width: 25%;
+    background: pink
+}
+.footer{
+    height: 10vh;
+    background: red;
+}
+.main{
+    justify-content: center;
+    display: flex;
+    height: 450px;
+    width: 100%;
+}
+.nav,.side,.holy,.footer,.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    margin: 10px
+}
